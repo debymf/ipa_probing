@@ -1,0 +1,18 @@
+[default]
+checkpoint_dir='data/checkpoint'
+layout_lm_base = 'data/models/layoutlm-base-uncased'
+bert_model = 'data/models/bert-base-uncased'
+model_dir = 'data/models/model_dir'
+index_dir = 'data/index_dir'
+sample_rico_sca = 'tests/sample_data/rico_sca_5_examples.json'
+pixel_help = 'data/pixel_help/parsed_pixel_help.json'
+[default.rico_sca_sample]
+    train='data/rico_sca/rico_sca_train_sample_sample.json'
+    dev='data/rico_sca/rico_sca_dev_sample_sample.json'
+    test='data/rico_sca/rico_sca_test_sample_sample.json'
+[default.rico_sca]
+    train='data/rico_sca/rico_sca_train.json'
+    dev='data/rico_sca/rico_sca_dev.json'
+    test='data/rico_sca/rico_sca_test.json'
+[test]
+sample_rico_sca = 'tests/sample_data/rico_sca_5_examples.json'
